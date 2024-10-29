@@ -1,0 +1,6 @@
+is_global = true
+build_property.MvvmToolkitEnableINotifyPropertyChangingSupport = true
+build_property.RootNamespace = Drizzle.Common
+build_property.ProjectDir = D:\weather-main\weather-main\src\Drizzle.Common\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 

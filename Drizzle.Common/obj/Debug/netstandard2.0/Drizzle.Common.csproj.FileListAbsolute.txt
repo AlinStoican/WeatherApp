@@ -1,0 +1,13 @@
+D:\weather-main\weather-main\src\Drizzle.Common\bin\Debug\netstandard2.0\Drizzle.Common.deps.json
+D:\weather-main\weather-main\src\Drizzle.Common\bin\Debug\netstandard2.0\Drizzle.Common.dll
+D:\weather-main\weather-main\src\Drizzle.Common\bin\Debug\netstandard2.0\Drizzle.Common.pdb
+D:\weather-main\weather-main\src\Drizzle.Common\bin\Debug\netstandard2.0\Drizzle.Models.dll
+D:\weather-main\weather-main\src\Drizzle.Common\bin\Debug\netstandard2.0\Drizzle.Models.pdb
+D:\weather-main\weather-main\src\Drizzle.Common\obj\Debug\netstandard2.0\Drizzle.Common.csproj.AssemblyReference.cache
+D:\weather-main\weather-main\src\Drizzle.Common\obj\Debug\netstandard2.0\Drizzle.Common.GeneratedMSBuildEditorConfig.editorconfig
+D:\weather-main\weather-main\src\Drizzle.Common\obj\Debug\netstandard2.0\Drizzle.Common.AssemblyInfoInputs.cache
+D:\weather-main\weather-main\src\Drizzle.Common\obj\Debug\netstandard2.0\Drizzle.Common.AssemblyInfo.cs
+D:\weather-main\weather-main\src\Drizzle.Common\obj\Debug\netstandard2.0\Drizzle.Common.csproj.CoreCompileInputs.cache
+D:\weather-main\weather-main\src\Drizzle.Common\obj\Debug\netstandard2.0\Drizzle..2B832FDD.Up2Date
+D:\weather-main\weather-main\src\Drizzle.Common\obj\Debug\netstandard2.0\Drizzle.Common.dll
+D:\weather-main\weather-main\src\Drizzle.Common\obj\Debug\netstandard2.0\Drizzle.Common.pdb
