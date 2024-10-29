@@ -3,14 +3,9 @@
   <h2 align="center">Lively Weather</h2>
 </p>
 
-[![GitHub stars](https://img.shields.io/github/stars/rocksdanister/weather.svg)](https://github.com/rocksdanister/weather/stargazers)
-[![Documentation](https://img.shields.io/badge/Docs-WIP-red.svg)](https://github.com/rocksdanister/weather/wiki)
-[![Issues](https://img.shields.io/github/issues/rocksdanister/weather.svg)](https://github.com/rocksdanister/weather/issues)
-[![Crowdin](https://badges.crowdin.net/lively-weather/localized.svg)](https://crowdin.com/project/lively-weather)
 
 ## Contents
 
-- [About](#about)
 - [Features](#features)
 - [Download](#download)
 - [Building](#building)
