@@ -49,4 +49,39 @@ https://github.com/rocksdanister/weather/assets/17554161/350d1b69-0d05-4f2f-ae1b
 
 ## Building
 
-Instructions for building the application can be found [here.](https://github.com/rocksdanister/weather/wiki/Building)
+Install the .NET 6 SDK from https://dotnet.microsoft.com/en-us/download (if not already done so).
+
+Then from a cmd prompt:
+
+git clone https://github.com/microsoft/onnxruntime
+cd onnxruntime
+git remote add tommcdon https://github.com/tommcdon/onnxruntime
+git fetch --all
+git switch -t tommcdon/removeRefReturns
+cd csharp\src\Microsoft.ML.OnnxRuntime
+dotnet pack -c release /p:PackageVersion=5.0.0
+Add the csharp\src\Microsoft.ML.OnnxRuntime\bin\Release to the feed.
+
+Open nuget package manager and update the Microsoft.ML.OnnxRuntime.Managed package to the 5.0.0 version we just built.
+
+XAML Designer Bug
+image
+Visual studio designer hangs and shows busy message after a few clicks.
+
+On the dialog after Cancel is selected choose the 2nd option for stability.
+
+Don't know the cause, this started happening(?) after I edited WinUI NavView template and added to App.xaml.
+
+Note
+Documenting the changes made for building in Release with .NET Native
+
+Modified version of OnnxRuntime.Managed package is used without ref struct return.
+
+In Drizzle.UI.UWP/Properties/Default.rd.xml the following changes made for Trimming related issue.
+
+<Assembly Dynamic="Required All" Name="Microsoft.Extensions.Options"/>
+<Assembly Dynamic="Required All" Name="Microsoft.Extensions.Logging"/>
+<Assembly Dynamic="Required All" Name="Microsoft.Extensions.Http"/>
+(Optional) To reduce CPU usage during build in Drizzle.UI.UWP/Drizzle.UI.UWP.csproj
+<IlcParameters>/ExtraNutcArguments:"/d2threadsN"</IlcParameters>
+with N being whatever many cores you want to use (eg. d2threads4 uses 4 cores)
