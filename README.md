@@ -17,7 +17,7 @@ Windows native weather app powered by DirectX12 animations.
 ## Features
 
 ### 100% Native
-https://github.com/rocksdanister/weather/assets/17554161/eb8c0c72-9fa6-4f7d-a4c1-888231060366
+
 
 - Native UWP app powered by DX12, Win2D.
 - Fast startup and small install size.
