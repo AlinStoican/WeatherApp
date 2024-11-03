@@ -1,3 +1,9 @@
+
+## About
+
+Windows native weather app powered by DirectX12 animations.
+
+
 <p align="center">
   <img alt="Lively Weather logo" src="resources/hero.jpg" width="650" />
   <h2 align="center">Lively Weather</h2>
@@ -9,10 +15,6 @@
 - [Features](#features)
 - [Download](#download)
 - [Building](#building)
-
-## About
-
-Windows native weather app powered by DirectX12 animations.
 
 ## Features
 
